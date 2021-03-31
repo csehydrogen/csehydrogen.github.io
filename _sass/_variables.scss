@@ -15,9 +15,8 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+$sans-serif: "Nanum Gothic", Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
