@@ -3,7 +3,7 @@ layout: page
 title: 전문연
 ---
 
-<p id="demo"></p>
+<h2 id="demo"></h2>
 
 <script>
 var countDownDate = new Date("Feb 28, 2023 23:59:59").getTime();
