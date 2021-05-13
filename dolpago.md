@@ -1,5 +1,6 @@
 ---
-layout: page_minimal
+layout: page
+exclude_nav: true
 ---
 
 <h1>로스트아크 어빌리티 스톤 세공</h1>
