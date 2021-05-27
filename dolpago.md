@@ -379,6 +379,11 @@ button {
 
 MYAR님의 [시뮬레이터](https://myar.tistory.com/26)와 jaentrouble님의 [LoFAGO](https://github.com/jaentrouble/LoFAGO)의 UI를 참고했습니다. 로직은 직접 새로 작성했습니다.
 
+## 관련 링크
+
+* [https://www.inven.co.kr/board/lostark/4821/77491](https://www.inven.co.kr/board/lostark/4821/77491)
+* [https://www.inven.co.kr/board/lostark/4821/77432](https://www.inven.co.kr/board/lostark/4821/77432)
+
 ## 패치노트
 
-* (21.05.27) SEO 적용. 확률 유효숫자 3자리까지 표시. 초기값을 10칸에 774로 조정. Disqus 광고 때문에 제거.
+* (21.05.27) SEO 적용. 확률 유효숫자 3자리까지 표시. 초기값을 10칸에 774로 조정. Disqus 광고 때문에 제거. Favicon 추가. 관련 링크 추가.
