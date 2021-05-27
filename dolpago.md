@@ -3,6 +3,7 @@ layout: page
 title: 돌파고 / 로파고
 description: 로스트아크 어빌리티 스톤 세공을 위한 시뮬레이터입니다.
 exclude_nav: true
+favicon: /images/Ability_22.png
 ---
 
 <h5>로스트아크 어빌리티 스톤 세공 시뮬레이터</h5>
