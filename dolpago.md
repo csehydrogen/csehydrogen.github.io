@@ -1,9 +1,11 @@
 ---
 layout: page
+title: 돌파고 / 로파고
+description: 로스트아크 어빌리티 스톤 세공을 위한 시뮬레이터입니다.
 exclude_nav: true
 ---
 
-<h1>로스트아크 어빌리티 스톤 세공</h1>
+<h5>로스트아크 어빌리티 스톤 세공 시뮬레이터</h5>
 
 <h6 id="info">확률 계산 중...</h6>
 
@@ -14,7 +16,7 @@ exclude_nav: true
 <option value="7">7칸</option>
 <option value="8">8칸</option>
 <option value="9">9칸</option>
-<option value="10">10칸</option>
+<option value="10" selected="selected">10칸</option>
 </select>
 <button onclick="undo();">취소</button>
 <button onclick="reset();">리셋</button>
@@ -138,7 +140,7 @@ button {
   // abil1 success, abil2 fail => [[1, 1], [2, 0]]
   let seq;
 
-  let saved_goal1 = 6, saved_goal2 = 6, saved_goal3 = 0;
+  let saved_goal1 = 7, saved_goal2 = 7, saved_goal3 = 4;
   let goal1, goal2, goal3;
 
   /*
@@ -251,7 +253,7 @@ button {
 
   function toPercent(x) {
     x *= 100;
-    return x == 0 ? "0%" : x.toFixed(Math.max(1 - Math.floor(Math.log(x) / Math.log(10)), 0)) + "%";
+    return x == 0 ? "0%" : x.toFixed(Math.max(2 - Math.floor(Math.log(x) / Math.log(10)), 0)) + "%";
   }
 
   function get_num_attempts() {
@@ -375,3 +377,7 @@ button {
 ## 참고
 
 MYAR님의 [시뮬레이터](https://myar.tistory.com/26)와 jaentrouble님의 [LoFAGO](https://github.com/jaentrouble/LoFAGO)의 UI를 참고했습니다. 로직은 직접 새로 작성했습니다.
+
+## 패치노트
+
+* (21.05.27) SEO 적용. 확률 유효숫자 3자리까지 표시. 초기값을 10칸에 774로 조정.
