@@ -241,7 +241,7 @@ button {
     for (let f = 0; f <= na; ++f) {
     for (let p = 0; p < PMAX; ++p) {
       let t;
-      if (goal_cells[d][e] == 1 && c <= f) {
+      if (goal_cells[d][e] == 1 && a == 0 && b == 0 && c <= f) {
         t = 1;
       } else if (c < f) {
         t = dp[idx(a, b, c, p, d, e, c)];
