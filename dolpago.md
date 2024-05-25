@@ -7,6 +7,7 @@ favicon: /images/Ability_22.png
 ---
 
 <h5>로스트아크 어빌리티 스톤 세공 시뮬레이터 (<a href="dolpago_old">구버젼</a>)</h5>
+<h5><a href="https://blog.naver.com/rlajho">대전·충청 맛집이 궁금하다면?</a></h5>
 
 <h6 id="info">확률 계산 중...</h6>
 
